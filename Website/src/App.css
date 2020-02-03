@@ -1,0 +1,111 @@
+.header-color{
+  background: #0C0032;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0280B1, #03184C, #010632);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0280B1  , #03184C, #010632); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.body-color{
+  background: #FFFFFF;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to bottom, #0C0032, #203A43, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom, #0C0032, #203A43, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.backgroundImage{
+            display: grid;
+            height: 100vh;
+            max-height:  100vh;
+            overflow: hidden;
+}
+.landingImage{
+    width: 100%;
+}
+.landingblock{
+  background: rgba(255,255,255,0.8);
+  height: auto;
+}
+/* .backgroundImage{
+  background-image: url("images/me.jpg");
+} */
+.landingpage-featured{
+      float: center;
+       position: absolute;
+       /* left: 5%; */
+       top: 5%;
+       z-index: 1000;
+       width:100%;
+       margin: 5%;
+
+}
+
+.profile-image{
+  height:60%;
+  padding:10%;
+  border-radius: 50%;
+
+}
+.landingblock  h1{
+  font-weight: bold;
+  color: #03184C;
+  font-size: 32px;
+  /* margin: 0; */
+}
+.landingblock  h2{
+  font-style: italic;
+  color: #03184C;
+  font-size: 20px;
+  /* margin:0; */
+}
+.landingblock  h3{
+  font-weight:  bold;
+  color: #03184C;
+  font-size: 15px;
+  /* margin:0; */
+}
+.landingblock  p{
+  /* margin:0; */
+}
+
+.linkedin{
+  height:40px;
+  margin-right: 10px;
+}
+.github{
+  height:40px;
+  margin-right: 2px;
+}
+.facebook{
+  height:50px;
+}
+.links{
+  height:70px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.icon{
+  height: 20%
+}
+.titletext h1{
+  font-weight: bold;
+  color: #03184C;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+.resumePage img {
+    display:block;
+    margin:auto;
+}
+.resumePage button {
+    display:block;
+    margin:auto;
+}
+.mt-5{
+  text-align: center;
+}
+.mt-5  h3{
+  font-weight:  bold;
+  color: #03184C;
+  font-size: 30px;
+  /* margin:0; */
+}
