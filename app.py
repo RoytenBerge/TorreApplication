@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from joblib import dump, load
+from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
@@ -15,15 +15,15 @@ api = Api(app)
 
 RFmodel_path = 'RFClassiferextrasmall.joblib.pkl'
 with open(RFmodel_path, 'rb') as f:
-    model = load(f)
+    model = joblib.load(f)
 
 tfIDV_vectorizer_path = 'Transformer.joblib.pkl'
 with open(tfIDV_vectorizer_path, 'rb') as f:
-    tfidf_transformer = load(f)
+    tfidf_transformer = joblib.load(f)
     
 count_vectorizer = 'word_count_vector.joblib.pkl'
 with open(count_vectorizer, 'rb') as f:
-    cv = load(f)
+    cv = joblib.load(f)
 # argument parsing
 parser = reqparse.RequestParser()
 parser.add_argument('query')
