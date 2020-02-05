@@ -16,7 +16,7 @@ The source code is found here:
 https://github.com/RoytenBerge/TorreApplication/tree/master/Website
 
 ## Back-end
-I have created a small restfull api file that can be hosted anywhere. The API is very small. The only endpoint in it is the root http://flask-env.xhrwxkncvd.us-east-2.elasticbeanstalk.com/ and by adding a string behind it, it can be queried. On www.roytenberge.com/torre the api can be tested with a simple GUI. The network is not working very well because this is a smaller version (the bigger one needed a bigger aws instance and that would have cost me too much). 
+I have created a small restfull api file that can be hosted anywhere. The API is very small. The only endpoint in it is the root http://flask-env.xhrwxkncvd.us-east-2.elasticbeanstalk.com/ and by adding a string behind it, it can be queried. On www.roytenberge.com/ under the torre tab, the api can be tested with a simple GUI. The network is not working very well because this is a smaller version (the bigger one needed a bigger aws instance and that would have cost me too much). 
 
 https://github.com/RoytenBerge/TorreApplication/blob/master/API/
 
