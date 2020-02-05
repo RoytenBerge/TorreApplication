@@ -15,15 +15,15 @@ The source code is found here:
 
 https://github.com/RoytenBerge/TorreApplication/tree/master/Website
 
+Specifically go to the Torre tab to interact with the API that hosts (a smaller version) the neural network.
+
 ## Back-end
 I have created a small restfull api file that can be hosted anywhere. The API is very small. The only endpoint in it is the root http://flask-env.xhrwxkncvd.us-east-2.elasticbeanstalk.com/ and by adding a string behind it, it can be queried. On www.roytenberge.com/ under the torre tab, the api can be tested with a simple GUI. The network is not working very well because this is a smaller version (the bigger one needed a bigger aws instance and that would have cost me too much). 
 
 https://github.com/RoytenBerge/TorreApplication/blob/master/API/
 
 ## Disclaimer
-My planning was to run the ML algorithms in the cloud on a restful API, but the algorithmfiles were too big to compute on a free server and I did not found the time to upload the entire API. In my previous android application I did setup a serverless restfull API on AWS. The app can be found here and if you want some insights in how the API works, I can give you access to my AWS account (via pm):
-
-https://play.google.com/store/apps/details?id=com.marketwizard.marketwizard
+The Network does not work perfectly, because tweeking a network would take more time and money to host on AWS. I hope you can see that I am very able to make a front-end, backend (API inc. deployment) and mostly my datascience knowledge.
 
 ## Log
 | Time  | Work done | 
